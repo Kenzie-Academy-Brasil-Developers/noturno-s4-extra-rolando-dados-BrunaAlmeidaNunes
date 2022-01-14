@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color: #01242c;  
+    background-color: lightskyblue; 
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+#tabela{
+	font-family: 'Courier New', Courier, monospace;
+	color: rgb(25, 37, 44);
+}
+#botao{
+    border-radius: 80px;
+	padding: 10px;
+    border: black 1px solid;
+    color: #01393b;
+    background-color: #fdfbfb;
+}
+@media (min-width: 768px){
+    main{
+        flex-direction: row;
+        column-gap: 100px;
+        align-items: flex-start;
+    }
+}
